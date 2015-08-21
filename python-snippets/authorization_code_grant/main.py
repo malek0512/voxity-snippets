@@ -11,7 +11,7 @@ client_id = "<your client key>"
 client_secret = "<your client secret>"
 authorization_base_url = 'https://api.voxity.fr/api/v1/dialog/authorize'
 token_url = 'https://api.voxity.fr/api/v1/oauth/token'
-redirect_uri = <your redirect_uri registred on voxity service> #in this example you should set it to <http://localhost:5000/callback>
+redirect_uri = "<your redirect_uri registred on voxity service>" #in this example you should set it to <http://localhost:5000/callback>
 
 @app.route("/")
 def demo():
